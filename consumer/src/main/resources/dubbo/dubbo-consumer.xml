@@ -8,5 +8,7 @@
     <dubbo:application name="dubbo_benchmark_consumer"/>
 
     <dubbo:registry protocol="zookeeper" address="zk.test.winxuan.io:8900"/>
+    <dubbo:consumer check="false"/>
+    <import resource="dubbo-client.xml" />
 
 </beans>

@@ -15,10 +15,7 @@ import java.util.Arrays;
  * Created by charles on 2017/5/22.
  */
 @SpringBootApplication
-@ImportResource(value = {
-        "classpath:dubbo/*.xml"
-})
-//@ComponentScan({"com.xzj","com.github.charlesvhe.springcloud.practice.consumer"})
+@ImportResource({"classpath:applicationContext.xml"})
 public class ConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerApplication.class, args);

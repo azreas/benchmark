@@ -1,9 +1,11 @@
 package com.xzj.vo;
 
+import java.io.Serializable;
+
 /**
  * Created by charles on 2017/5/25.
  */
-public class User {
+public class User implements Serializable {
     private Long id;
     private String account;
     private String password;
