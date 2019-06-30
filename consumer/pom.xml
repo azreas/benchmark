@@ -12,27 +12,23 @@
     <artifactId>spring-cloud-practice-consumer</artifactId>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.14.2</version>
         </dependency>
 
         <dependency>
             <groupId>com.github.charlesvhe</groupId>
-            <artifactId>spring-cloud-practice-core</artifactId>
-            <version>${parent.version}</version>
+            <artifactId>interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>com.github.charlesvhe</groupId>-->
+            <!--<artifactId>spring-cloud-practice-core</artifactId>-->
+            <!--<version>${parent.version}</version>-->
+        <!--</dependency>-->
     </dependencies>
 </project>
